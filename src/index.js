@@ -1,1 +1,3 @@
-console.log("hello!")
+import showHome from "./home/home.js";
+
+showHome();
