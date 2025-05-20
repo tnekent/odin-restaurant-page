@@ -1,3 +1,5 @@
+import "./contact.css";
+
 const createFormField = function (inputType, id, desc) {
   const fieldContainer = document.createElement("p");
   const input = document.createElement("input");
@@ -12,6 +14,7 @@ const createFormField = function (inputType, id, desc) {
 
 export default function () {
   const divContent = document.querySelector("#content");
+  divContent.className = "contact";
 
   const headerContact = document.createElement("header");
   const h1ContactLabel = document.createElement("h1");

@@ -1,0 +1,45 @@
+.contact {
+  font-size: 1.4rem;
+}
+
+.contact header h1 {
+  display: flex;
+}
+
+.contact header h1::after {
+  content: "";
+  align-self: center;
+  flex: 1;
+  margin: 0 20px;
+  height: 0;
+  border: 2px solid white;
+}
+
+.contact form {
+  display: grid;
+  width: max-content;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.contact form p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3ch;
+  margin-bottom: 20px;
+}
+
+.contact input {
+  width: 30ch;
+  padding: 1px 3px;
+}
+
+.contact button {
+  background-color: #efefef;
+  border: none;
+  font-weight: bold;
+  padding: 2px 0px;
+  margin-top: 15px;
+  cursor: pointer;
+}

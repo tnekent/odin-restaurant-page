@@ -1,3 +1,5 @@
+import "./menu.css";
+
 const menuSeafood = {
   Shrimp: 11.99,
   Catfish: 11.99,
@@ -37,6 +39,7 @@ function createTableForMenu(menu, caption) {
 
 export default function () {
   const divContent = document.querySelector("#content");
+  divContent.className = "menu";
 
   const headerMenu = document.createElement("header");
   const h1MenuLabel = document.createElement("h1");

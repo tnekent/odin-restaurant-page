@@ -1,0 +1,30 @@
+body {
+  background-color: #003f6c;
+  font-family: sans-serif;
+  color: white;
+}
+
+#content {
+  padding: 2rem 6vw;
+}
+
+nav {
+  color: #23395d;
+  font-weight: bold;
+  background-color: whitesmoke;
+  padding: 7px 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-size: 1.2rem;
+}
+
+nav button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 7rem;
+}

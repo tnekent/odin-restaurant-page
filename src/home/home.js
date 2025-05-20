@@ -1,7 +1,9 @@
 import SeasideImg from "../resort.jpg";
+import "./home.css";
 
 export default function () {
   const divContent = document.querySelector("#content");
+  divContent.className = "home";
 
   const headerHome = document.createElement("header");
   const imgSeaside = document.createElement("img");
@@ -15,11 +17,13 @@ export default function () {
   headerHome.append(imgSeaside, h1BusinessName, pTagline);
 
   const sectionDesc = document.createElement("section");
+  sectionDesc.className = "description"
   const pDesc = document.createElement("p");
   pDesc.textContent = "This restaurant overlooks the beach with a view of the eastern sun. Food is freshly caught and served to customers."
   sectionDesc.appendChild(pDesc);
 
   const sectionOpenTimes = document.createElement("section");
+  sectionOpenTimes.className = "open-hours";
   const tableOpenTimes = document.createElement("table");
   const openTimesTable = {
     "Monday - Friday": "7:00 AM - 9:00 PM",

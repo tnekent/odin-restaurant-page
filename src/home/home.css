@@ -1,0 +1,49 @@
+.home {
+  display: flex;
+  flex-flow: column;
+}
+
+.home header {
+  display: grid;
+  grid-template-areas:
+    "img h1"
+    "img p";
+  /* grid-template-columns: max-content; */
+  column-gap: 25px;
+}
+
+.home header img {
+  grid-area: img;
+  width: auto;
+}
+
+.home header h1 {
+  align-self: self-end;
+}
+
+.home header p {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.home .description {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.home .open-hours {
+  width: max-content;
+  align-self: center;
+  margin-top: 4rem;
+}
+
+.home .open-hours table {
+  border-collapse: collapse;
+  font-size: 1.4rem;
+}
+
+.home .open-hours table tr>* {
+  padding: 8px 15px;
+  border-bottom: 2px solid #ddd;
+}

@@ -1,6 +1,8 @@
 import showHome from "./home/home.js";
 import showMenu from "./menu/menu.js"
 import showContact from "./contact/contact.js"
+import "./index.css";
+import "./reset.css"
 
 const showTabsFns = {
   home: showHome,
